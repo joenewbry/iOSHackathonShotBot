@@ -21,6 +21,26 @@
 		24689E7C18F8E38300C198F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24689E5E18F8E38300C198F0 /* UIKit.framework */; };
 		24689E8418F8E38300C198F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24689E8218F8E38300C198F0 /* InfoPlist.strings */; };
 		24689E8618F8E38300C198F0 /* ShotBotBlueDrinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24689E8518F8E38300C198F0 /* ShotBotBlueDrinkTests.m */; };
+		24A593B118F909770091D5A0 /* DropItBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A593B018F909770091D5A0 /* DropItBehavior.m */; };
+		24A593B318F90CE60091D5A0 /* ice_cube.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24A593B218F90CE60091D5A0 /* ice_cube.jpg */; };
+		24A593B518F910120091D5A0 /* ice_cube_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593B418F910120091D5A0 /* ice_cube_small.png */; };
+		24A593C618F93D520091D5A0 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593B618F93D510091D5A0 /* AppIcon29x29.png */; };
+		24A593C718F93D520091D5A0 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593B718F93D510091D5A0 /* AppIcon29x29@2x.png */; };
+		24A593C818F93D520091D5A0 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593B818F93D510091D5A0 /* AppIcon40x40.png */; };
+		24A593C918F93D520091D5A0 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593B918F93D510091D5A0 /* AppIcon40x40@2x.png */; };
+		24A593CA18F93D520091D5A0 /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593BA18F93D510091D5A0 /* AppIcon50x50.png */; };
+		24A593CB18F93D520091D5A0 /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593BB18F93D510091D5A0 /* AppIcon50x50@2x.png */; };
+		24A593CC18F93D520091D5A0 /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593BC18F93D510091D5A0 /* AppIcon57x57.png */; };
+		24A593CD18F93D520091D5A0 /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593BD18F93D510091D5A0 /* AppIcon57x57@2x.png */; };
+		24A593CE18F93D520091D5A0 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593BE18F93D520091D5A0 /* AppIcon60x60.png */; };
+		24A593CF18F93D520091D5A0 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593BF18F93D520091D5A0 /* AppIcon60x60@2x.png */; };
+		24A593D018F93D520091D5A0 /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593C018F93D520091D5A0 /* AppIcon72x72.png */; };
+		24A593D118F93D520091D5A0 /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593C118F93D520091D5A0 /* AppIcon72x72@2x.png */; };
+		24A593D218F93D520091D5A0 /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593C218F93D520091D5A0 /* AppIcon76x76.png */; };
+		24A593D318F93D520091D5A0 /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593C318F93D520091D5A0 /* AppIcon76x76@2x.png */; };
+		24A593D418F93D520091D5A0 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593C418F93D520091D5A0 /* iTunesArtwork.png */; };
+		24A593D518F93D520091D5A0 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593C518F93D520091D5A0 /* iTunesArtwork@2x.png */; };
+		24A593D718F93E360091D5A0 /* ShotBotLaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A593D618F93E360091D5A0 /* ShotBotLaunch@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +54,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24689E5718F8E38300C198F0 /* ShotBotBlueDrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShotBotBlueDrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24689E5718F8E38300C198F0 /* Shotbot I'm Thirsty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shotbot I'm Thirsty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24689E5A18F8E38300C198F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24689E5C18F8E38300C198F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		24689E5E18F8E38300C198F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		24689E6218F8E38300C198F0 /* ShotBotBlueDrink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShotBotBlueDrink-Info.plist"; sourceTree = "<group>"; };
+		24689E6218F8E38300C198F0 /* Shotbot I'm Thirsty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shotbot I'm Thirsty-Info.plist"; sourceTree = "<group>"; };
 		24689E6418F8E38300C198F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24689E6618F8E38300C198F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24689E6818F8E38300C198F0 /* ShotBotBlueDrink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShotBotBlueDrink-Prefix.pch"; sourceTree = "<group>"; };
+		24689E6818F8E38300C198F0 /* Shotbot I'm Thirsty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shotbot I'm Thirsty-Prefix.pch"; sourceTree = "<group>"; };
 		24689E6918F8E38300C198F0 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
 		24689E6A18F8E38300C198F0 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
 		24689E6D18F8E38300C198F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24689E6F18F8E38300C198F0 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
 		24689E7018F8E38300C198F0 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
 		24689E7218F8E38300C198F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		24689E7818F8E38300C198F0 /* ShotBotBlueDrinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShotBotBlueDrinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24689E7818F8E38300C198F0 /* Shotbot I'm ThirstyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shotbot I'm ThirstyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24689E7918F8E38300C198F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		24689E8118F8E38300C198F0 /* ShotBotBlueDrinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShotBotBlueDrinkTests-Info.plist"; sourceTree = "<group>"; };
+		24689E8118F8E38300C198F0 /* Shotbot I'm ThirstyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shotbot I'm ThirstyTests-Info.plist"; sourceTree = "<group>"; };
 		24689E8318F8E38300C198F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24689E8518F8E38300C198F0 /* ShotBotBlueDrinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotBotBlueDrinkTests.m; sourceTree = "<group>"; };
+		24A593AF18F909770091D5A0 /* DropItBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropItBehavior.h; path = ../../../DropIt/DropIt/DropItBehavior.h; sourceTree = "<group>"; };
+		24A593B018F909770091D5A0 /* DropItBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DropItBehavior.m; path = ../../../DropIt/DropIt/DropItBehavior.m; sourceTree = "<group>"; };
+		24A593B218F90CE60091D5A0 /* ice_cube.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ice_cube.jpg; sourceTree = SOURCE_ROOT; };
+		24A593B418F910120091D5A0 /* ice_cube_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice_cube_small.png; sourceTree = SOURCE_ROOT; };
+		24A593B618F93D510091D5A0 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon29x29.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon29x29.png"; sourceTree = "<group>"; };
+		24A593B718F93D510091D5A0 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon29x29@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		24A593B818F93D510091D5A0 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon40x40.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon40x40.png"; sourceTree = "<group>"; };
+		24A593B918F93D510091D5A0 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon40x40@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		24A593BA18F93D510091D5A0 /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon50x50.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon50x50.png"; sourceTree = "<group>"; };
+		24A593BB18F93D510091D5A0 /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon50x50@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon50x50@2x.png"; sourceTree = "<group>"; };
+		24A593BC18F93D510091D5A0 /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon57x57.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon57x57.png"; sourceTree = "<group>"; };
+		24A593BD18F93D510091D5A0 /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon57x57@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		24A593BE18F93D520091D5A0 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon60x60.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon60x60.png"; sourceTree = "<group>"; };
+		24A593BF18F93D520091D5A0 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon60x60@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		24A593C018F93D520091D5A0 /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon72x72.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon72x72.png"; sourceTree = "<group>"; };
+		24A593C118F93D520091D5A0 /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon72x72@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		24A593C218F93D520091D5A0 /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon76x76.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon76x76.png"; sourceTree = "<group>"; };
+		24A593C318F93D520091D5A0 /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon76x76@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		24A593C418F93D520091D5A0 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/iTunesArtwork.png"; sourceTree = "<group>"; };
+		24A593C518F93D520091D5A0 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../../../../Desktop/ShotBot Icons/App Icon [Rounded]/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		24A593D618F93E360091D5A0 /* ShotBotLaunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShotBotLaunch@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +133,8 @@
 		24689E5818F8E38300C198F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24689E5718F8E38300C198F0 /* ShotBotBlueDrink.app */,
-				24689E7818F8E38300C198F0 /* ShotBotBlueDrinkTests.xctest */,
+				24689E5718F8E38300C198F0 /* Shotbot I'm Thirsty.app */,
+				24689E7818F8E38300C198F0 /* Shotbot I'm ThirstyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +153,8 @@
 		24689E6018F8E38300C198F0 /* ShotBotBlueDrink */ = {
 			isa = PBXGroup;
 			children = (
+				24A593AF18F909770091D5A0 /* DropItBehavior.h */,
+				24A593B018F909770091D5A0 /* DropItBehavior.m */,
 				24689E6918F8E38300C198F0 /* SBAppDelegate.h */,
 				24689E6A18F8E38300C198F0 /* SBAppDelegate.m */,
 				24689E6C18F8E38300C198F0 /* Main.storyboard */,
@@ -126,10 +169,29 @@
 		24689E6118F8E38300C198F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24689E6218F8E38300C198F0 /* ShotBotBlueDrink-Info.plist */,
+				24A593D618F93E360091D5A0 /* ShotBotLaunch@2x.png */,
+				24A593B618F93D510091D5A0 /* AppIcon29x29.png */,
+				24A593B718F93D510091D5A0 /* AppIcon29x29@2x.png */,
+				24A593B818F93D510091D5A0 /* AppIcon40x40.png */,
+				24A593B918F93D510091D5A0 /* AppIcon40x40@2x.png */,
+				24A593BA18F93D510091D5A0 /* AppIcon50x50.png */,
+				24A593BB18F93D510091D5A0 /* AppIcon50x50@2x.png */,
+				24A593BC18F93D510091D5A0 /* AppIcon57x57.png */,
+				24A593BD18F93D510091D5A0 /* AppIcon57x57@2x.png */,
+				24A593BE18F93D520091D5A0 /* AppIcon60x60.png */,
+				24A593BF18F93D520091D5A0 /* AppIcon60x60@2x.png */,
+				24A593C018F93D520091D5A0 /* AppIcon72x72.png */,
+				24A593C118F93D520091D5A0 /* AppIcon72x72@2x.png */,
+				24A593C218F93D520091D5A0 /* AppIcon76x76.png */,
+				24A593C318F93D520091D5A0 /* AppIcon76x76@2x.png */,
+				24A593C418F93D520091D5A0 /* iTunesArtwork.png */,
+				24A593C518F93D520091D5A0 /* iTunesArtwork@2x.png */,
+				24A593B418F910120091D5A0 /* ice_cube_small.png */,
+				24A593B218F90CE60091D5A0 /* ice_cube.jpg */,
+				24689E6218F8E38300C198F0 /* Shotbot I'm Thirsty-Info.plist */,
 				24689E6318F8E38300C198F0 /* InfoPlist.strings */,
 				24689E6618F8E38300C198F0 /* main.m */,
-				24689E6818F8E38300C198F0 /* ShotBotBlueDrink-Prefix.pch */,
+				24689E6818F8E38300C198F0 /* Shotbot I'm Thirsty-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +208,7 @@
 		24689E8018F8E38300C198F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24689E8118F8E38300C198F0 /* ShotBotBlueDrinkTests-Info.plist */,
+				24689E8118F8E38300C198F0 /* Shotbot I'm ThirstyTests-Info.plist */,
 				24689E8218F8E38300C198F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24689E5618F8E38300C198F0 /* ShotBotBlueDrink */ = {
+		24689E5618F8E38300C198F0 /* Shotbot I'm Thirsty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24689E8918F8E38300C198F0 /* Build configuration list for PBXNativeTarget "ShotBotBlueDrink" */;
+			buildConfigurationList = 24689E8918F8E38300C198F0 /* Build configuration list for PBXNativeTarget "Shotbot I'm Thirsty" */;
 			buildPhases = (
 				24689E5318F8E38300C198F0 /* Sources */,
 				24689E5418F8E38300C198F0 /* Frameworks */,
@@ -167,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = ShotBotBlueDrink;
+			name = "Shotbot I'm Thirsty";
 			productName = ShotBotBlueDrink;
-			productReference = 24689E5718F8E38300C198F0 /* ShotBotBlueDrink.app */;
+			productReference = 24689E5718F8E38300C198F0 /* Shotbot I'm Thirsty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		24689E7718F8E38300C198F0 /* ShotBotBlueDrinkTests */ = {
+		24689E7718F8E38300C198F0 /* Shotbot I'm ThirstyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24689E8C18F8E38300C198F0 /* Build configuration list for PBXNativeTarget "ShotBotBlueDrinkTests" */;
+			buildConfigurationList = 24689E8C18F8E38300C198F0 /* Build configuration list for PBXNativeTarget "Shotbot I'm ThirstyTests" */;
 			buildPhases = (
 				24689E7418F8E38300C198F0 /* Sources */,
 				24689E7518F8E38300C198F0 /* Frameworks */,
@@ -185,9 +247,9 @@
 			dependencies = (
 				24689E7E18F8E38300C198F0 /* PBXTargetDependency */,
 			);
-			name = ShotBotBlueDrinkTests;
+			name = "Shotbot I'm ThirstyTests";
 			productName = ShotBotBlueDrinkTests;
-			productReference = 24689E7818F8E38300C198F0 /* ShotBotBlueDrinkTests.xctest */;
+			productReference = 24689E7818F8E38300C198F0 /* Shotbot I'm ThirstyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24689E5218F8E38300C198F0 /* Build configuration list for PBXProject "ShotBotBlueDrink" */;
+			buildConfigurationList = 24689E5218F8E38300C198F0 /* Build configuration list for PBXProject "Shotbot I'm Thirsty" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +280,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24689E5618F8E38300C198F0 /* ShotBotBlueDrink */,
-				24689E7718F8E38300C198F0 /* ShotBotBlueDrinkTests */,
+				24689E5618F8E38300C198F0 /* Shotbot I'm Thirsty */,
+				24689E7718F8E38300C198F0 /* Shotbot I'm ThirstyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +291,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A593C918F93D520091D5A0 /* AppIcon40x40@2x.png in Resources */,
+				24A593D318F93D520091D5A0 /* AppIcon76x76@2x.png in Resources */,
+				24A593CC18F93D520091D5A0 /* AppIcon57x57.png in Resources */,
+				24A593B518F910120091D5A0 /* ice_cube_small.png in Resources */,
+				24A593D218F93D520091D5A0 /* AppIcon76x76.png in Resources */,
 				24689E7318F8E38300C198F0 /* Images.xcassets in Resources */,
 				24689E6518F8E38300C198F0 /* InfoPlist.strings in Resources */,
+				24A593D718F93E360091D5A0 /* ShotBotLaunch@2x.png in Resources */,
+				24A593C718F93D520091D5A0 /* AppIcon29x29@2x.png in Resources */,
+				24A593CA18F93D520091D5A0 /* AppIcon50x50.png in Resources */,
+				24A593D018F93D520091D5A0 /* AppIcon72x72.png in Resources */,
+				24A593B318F90CE60091D5A0 /* ice_cube.jpg in Resources */,
+				24A593C818F93D520091D5A0 /* AppIcon40x40.png in Resources */,
+				24A593CE18F93D520091D5A0 /* AppIcon60x60.png in Resources */,
+				24A593CF18F93D520091D5A0 /* AppIcon60x60@2x.png in Resources */,
+				24A593D118F93D520091D5A0 /* AppIcon72x72@2x.png in Resources */,
+				24A593CD18F93D520091D5A0 /* AppIcon57x57@2x.png in Resources */,
+				24A593D518F93D520091D5A0 /* iTunesArtwork@2x.png in Resources */,
+				24A593CB18F93D520091D5A0 /* AppIcon50x50@2x.png in Resources */,
 				24689E6E18F8E38300C198F0 /* Main.storyboard in Resources */,
+				24A593D418F93D520091D5A0 /* iTunesArtwork.png in Resources */,
+				24A593C618F93D520091D5A0 /* AppIcon29x29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24689E6718F8E38300C198F0 /* main.m in Sources */,
+				24A593B118F909770091D5A0 /* DropItBehavior.m in Sources */,
 				24689E7118F8E38300C198F0 /* SBViewController.m in Sources */,
 				24689E6B18F8E38300C198F0 /* SBAppDelegate.m in Sources */,
 			);
@@ -269,7 +351,7 @@
 /* Begin PBXTargetDependency section */
 		24689E7E18F8E38300C198F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24689E5618F8E38300C198F0 /* ShotBotBlueDrink */;
+			target = 24689E5618F8E38300C198F0 /* Shotbot I'm Thirsty */;
 			targetProxy = 24689E7D18F8E38300C198F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +460,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShotBotBlueDrink/ShotBotBlueDrink-Prefix.pch";
-				INFOPLIST_FILE = "ShotBotBlueDrink/ShotBotBlueDrink-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ShotBotBlueDrink/Shotbot I'm Thirsty-Prefix.pch";
+				INFOPLIST_FILE = "ShotBotBlueDrink/Shotbot I'm Thirsty-Info.plist";
+				PRODUCT_NAME = "Shotbot I'm Thirsty";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +473,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShotBotBlueDrink/ShotBotBlueDrink-Prefix.pch";
-				INFOPLIST_FILE = "ShotBotBlueDrink/ShotBotBlueDrink-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ShotBotBlueDrink/Shotbot I'm Thirsty-Prefix.pch";
+				INFOPLIST_FILE = "ShotBotBlueDrink/Shotbot I'm Thirsty-Info.plist";
+				PRODUCT_NAME = "Shotbot I'm Thirsty";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +495,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ShotBotBlueDrinkTests/ShotBotBlueDrinkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ShotBotBlueDrinkTests/Shotbot I'm ThirstyTests-Info.plist";
+				PRODUCT_NAME = "Shotbot I'm ThirstyTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +513,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShotBotBlueDrink/ShotBotBlueDrink-Prefix.pch";
-				INFOPLIST_FILE = "ShotBotBlueDrinkTests/ShotBotBlueDrinkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ShotBotBlueDrinkTests/Shotbot I'm ThirstyTests-Info.plist";
+				PRODUCT_NAME = "Shotbot I'm ThirstyTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24689E5218F8E38300C198F0 /* Build configuration list for PBXProject "ShotBotBlueDrink" */ = {
+		24689E5218F8E38300C198F0 /* Build configuration list for PBXProject "Shotbot I'm Thirsty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24689E8718F8E38300C198F0 /* Debug */,
@@ -450,21 +532,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24689E8918F8E38300C198F0 /* Build configuration list for PBXNativeTarget "ShotBotBlueDrink" */ = {
+		24689E8918F8E38300C198F0 /* Build configuration list for PBXNativeTarget "Shotbot I'm Thirsty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24689E8A18F8E38300C198F0 /* Debug */,
 				24689E8B18F8E38300C198F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		24689E8C18F8E38300C198F0 /* Build configuration list for PBXNativeTarget "ShotBotBlueDrinkTests" */ = {
+		24689E8C18F8E38300C198F0 /* Build configuration list for PBXNativeTarget "Shotbot I'm ThirstyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24689E8D18F8E38300C198F0 /* Debug */,
 				24689E8E18F8E38300C198F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
