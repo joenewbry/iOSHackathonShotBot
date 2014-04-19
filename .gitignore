@@ -15,10 +15,11 @@ profile
 *.moved-aside
 DerivedData
 .idea/
-ShotBot I'm Thirsty.xcodeproj/project.xcworkspace/xcshareddata/
-!ShotBot I'm Thirsty.xcodeproj/*.pbxproj
+Shotbot I'm Thirsty.xcodeproj/project.xcworkspace/xcshareddata/
+!Shotbot I'm Thirsty.xcodeproj/*.pbxproj
 
 # Pods config
-Pods
 Podfile.lock
 
+# untracked folders (stuff not needed for app release or that should be kept private)
+# should add file for parse keys
