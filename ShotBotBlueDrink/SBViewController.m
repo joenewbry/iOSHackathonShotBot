@@ -9,6 +9,10 @@
 #import "SBViewController.h"
 
 #import <AVFoundation/AVFoundation.h>
+#import <FUIButton.h>
+#import <UIColor+FlatUI.h>
+#import <UIFont+FlatUI.h>
+
 
 @interface SBViewController () <NSURLConnectionDelegate, NSURLConnectionDataDelegate, AVSpeechSynthesizerDelegate>
 
@@ -17,10 +21,10 @@
 @property (nonatomic, strong) NSURLRequest *orderDrinkURLRequest;
 @property (nonatomic, strong) NSURLConnection *orderDrinkURLConnection;
 
-@property (strong, nonatomic) IBOutlet UIButton *screwDriverSmallButton;
-@property (strong, nonatomic) IBOutlet UIButton *screwDriverLargeButton;
-@property (strong, nonatomic) IBOutlet UIButton *singleShotButton;
-@property (strong, nonatomic) IBOutlet UIButton *doubleShotButton;
+@property (strong, nonatomic) IBOutlet FUIButton *screwDriverSmallButton;
+@property (strong, nonatomic) IBOutlet FUIButton *screwDriverLargeButton;
+@property (strong, nonatomic) IBOutlet FUIButton *singleShotButton;
+@property (strong, nonatomic) IBOutlet FUIButton *doubleShotButton;
 
 
 @end
@@ -29,6 +33,10 @@
 @synthesize myVoiceSynth;
 @synthesize orderDrinkURLRequest;
 @synthesize orderDrinkURLConnection;
+@synthesize screwDriverSmallButton;
+@synthesize screwDriverLargeButton;
+@synthesize singleShotButton;
+@synthesize doubleShotButton;
 
 static NSString *baseString = @"http://shotbotserver.herokuapp.com/drink/";
 
@@ -42,12 +50,59 @@ static NSString *baseString = @"http://shotbotserver.herokuapp.com/drink/";
     return self;
 }
 
+- (id)init
+{
+    if (self = [super init])
+    {
+
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder])
+    {
+
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    screwDriverSmallButton.buttonColor = [UIColor orangeColor];
+    screwDriverSmallButton.shadowColor = [UIColor carrotColor];
+    screwDriverSmallButton.shadowHeight = 3.0f;
+    screwDriverSmallButton.cornerRadius = 6.0f;
+    screwDriverSmallButton.titleLabel.font = [UIFont boldFlatFontOfSize:20];
+    [screwDriverSmallButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [screwDriverSmallButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
 
+    screwDriverLargeButton.buttonColor = [UIColor orangeColor];
+    screwDriverLargeButton.shadowColor = [UIColor carrotColor];
+    screwDriverLargeButton.shadowHeight = 3.0f;
+    screwDriverLargeButton.cornerRadius = 6.0f;
+    screwDriverLargeButton.titleLabel.font = [UIFont boldFlatFontOfSize:20];
+    [screwDriverLargeButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [screwDriverLargeButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
 
+    singleShotButton.buttonColor = [UIColor silverColor];
+    singleShotButton.shadowColor = [UIColor amethystColor];
+    singleShotButton.shadowHeight = 3.0f;
+    singleShotButton.cornerRadius = 6.0f;
+    singleShotButton.titleLabel.font = [UIFont boldFlatFontOfSize:20];
+    [singleShotButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [singleShotButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
+
+    doubleShotButton.buttonColor = [UIColor silverColor];
+    doubleShotButton.shadowColor = [UIColor amethystColor];
+    doubleShotButton.shadowHeight = 3.0f;
+    doubleShotButton.cornerRadius = 6.0f;
+    doubleShotButton.titleLabel.font = [UIFont boldFlatFontOfSize:20];
+    [doubleShotButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [doubleShotButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
 
     // set up voice synthesizer
     myVoiceSynth = [[AVSpeechSynthesizer alloc] init];
